@@ -1,0 +1,166 @@
+body {
+   margin: 0;
+   font-family: Arial;
+}
+         /*== Common area start==*/
+.w-50 {
+   width: 50%;
+   float: left;
+   box-sizing: border-box;
+}      
+.container {
+   width: 85%;
+   margin: auto;
+   overflow: hidden;
+}
+      
+         
+         /*== Common area End==*/
+         
+/*================================*/
+/*======== Main area start========*/
+/*================================*/
+.main-area {
+   overflow: hidden;
+   padding: 133px 0;
+   background: #f0f2f5;
+}
+.main-area .facebook-logo {
+   margin-top: 32px;
+}
+.main-area .facebook-logo img {
+   width: 270px;
+} 
+.main-area .facebook-line h3 {
+   margin: -6px 0 0 22px;
+   font-size: 23px;
+   color: #lcle3b;
+   font-weight: normal;
+}
+.main-area .login-form input {
+   display: block;
+   width: 100%;
+   box-sizing: border-box;
+}
+.main-area .login-form {
+   background: #ffffff;
+   padding: 20px 20px;
+   border-radius: 10px;
+   text-align: center;
+   box-shadow: 2px 4px 8px rgba(0, 0, 0, .1), 4px 8px 16px rgba(0, 0, 0, .1);
+   width: 80%;
+   margin: auto;
+}
+.main-area .login-form input[type="text"],
+.main-area .login-form input[type="password"] {
+   padding: 8px 15px;
+   font-size: 18px;
+   border-radius: 7px;
+   border: 1px solid #c4c6d0;
+   margin-bottom: 10px;
+}
+::placeholder {
+   color: #c4c6d0;
+}
+.main-area .login-form input[type="submit"] {
+   background: #1877f2;
+   color: #ffffff;
+   border-radius: 7px;
+   margin-bottom: 18px;
+   padding: 6px 0;
+   border: none;
+   font-weight: bold;
+   font-size: 22px;
+}
+.main-area .login-form input[type="text"]:focus,
+.main-area .login-form input[type="password"]:focus {
+   border: 1px solid #1877f2;
+   outline: none;
+}
+.main-area .forgot {
+   font-size: 14px;
+   color: #1877f2;
+   text-decoration: none;
+}
+.main-area .forgot:hover {
+   text-decoration: underline;
+}
+.main-area .line {
+   border-top: 1px solid #dadde1;
+   margin: 18px 0;
+}
+.main-area .create-new-acc {
+   background: #42b72a;
+   color: #ffffff;
+   padding: 10px 13px;
+   display: inline-block;
+   border-radius: 7px;
+   text-decoration: none;
+   font-size: 18px;
+   font-weight: bold;
+   font-family: Arial;
+}
+.main-area .create-new-acc:hover {
+   text-decoration: underline;
+}
+.main-area .create-page {
+   text-align: center;
+}
+.main-area .create-page a {
+   text-decoration: none;
+   font-weight: bold;
+   color: black;
+}
+.main-area .create-page a:hover {
+   text-decoration: underline;
+}
+/*================================*/
+/*======== Main area End=========*/
+/*================================*/
+
+/*=======Footer area start=======*/
+.footer-area .language-section ul,
+.footer-area .other-page ul {
+   list-style-type: none;
+   font-size: 14px;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   margin-top: 20px;
+}
+.footer-area .language-section ul li a,.footer-area .other-page ul li a {
+   color: grey;
+   text-decoration: none;
+}
+.footer-area .language-section ul li a:hover,.footer-area .other-page ul li a:hover {
+   text-decoration: underline;
+}
+.footer-area .language-section ul li,.footer-area .other-page ul li {
+   float: left;
+   margin-right: 10px;
+   color: grey;
+}
+.footer-area .line {
+   border-top: 1px solid #dadde1;
+   margin: 5px 0 -12px 0;
+}
+.add-more {
+   background: rgba(189, 195, 199,0.4);
+   padding: 5px 5px 0 5px;
+}
+.footer-area .copyright {
+   margin-top: 10px;
+   color: #8888bd;
+   font-size: 14px;
+}
+
+/*=======Footer area End=======*/
+@media only screen and (max-width: 800px) {
+   
+}
+/*@media all and (max-width:414px) {
+   .w-50 {
+      width: 100%;
+      float: none;
+   }
+}*/
